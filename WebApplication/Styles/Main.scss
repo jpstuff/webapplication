@@ -1,0 +1,30 @@
+﻿$font-stack: Helvetica, sans-serif;
+$primary-color: #000;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+.button {
+    transform: rotate(30deg);
+}
